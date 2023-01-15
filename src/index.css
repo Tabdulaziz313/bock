@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #F6F5FF 0%, #FFFFFF 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.foiz {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 75px 0;
+}
+
+.foiz_card {
+  display: flex;
+  align-items: center;
+}
+
+.foiz_card img {
+  margin: 15px;
+}
+
+
+.kogo_h {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 35px 0;
+}
+
+.kogo_h p {
+  margin: 15px 0;
+}
+
+.kogo_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 55px 0;
+}
+
+.kogo_card {
+  height: 340px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  color: #fff;
+
+}
+
+.kogo_card span {
+  padding: 5px;
+  background: rgba(148, 148, 148, 0.6);
+  border-radius: 6px;
+  color: #FFDD67;
+  width: 40px;
+}
+
+.kogo_card:nth-child(1) {
+  background: url(./img/f1.png);
+}
+
+.kogo_card:nth-child(2) {
+  background: url(./img/f2.png);
+}
+
+.kogo_card:nth-child(3) {
+  background: url(./img/f3.png);
+}
+
+.ing {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.ing h2 {
+  margin: 20px;
+}
+
+.ing p {
+  color: #949494;
+}
+
+.ing button {
+  margin: 25px;
+  padding: 10px 25px;
+  background: #008F76;
+  border: 1px solid #008F76;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.015);
+  border-radius: 20px;
+  color: #F6F5FF;
+  cursor: pointer;
+}
+
+.footer {
+  height: 50px;
+  text-align: center;
+  background-color: #008F76;
+  color: #F6F5FF;
+}
+
+.footer h3 {
+  padding: 15px;
+}
